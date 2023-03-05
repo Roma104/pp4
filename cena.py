@@ -5,12 +5,13 @@
 
 def cena_netto(cena_brutto,podatek):
     
-    if podatek >=0:
+    if podatek >=0 and cena_brutto >=0:
         return print(round(cena_brutto/(podatek),2))
     else:
-        return print("Podatek nie może być ujemny!")
+        return print("Podatek i cena brutto nie mogą być ujemne!")
 
 #testy =D
 cena_netto(100,1.08)
-cena_netto(10,1.23)
+cena_netto(100,1.23)
 cena_netto(300,-8)
+cena_netto(-300,1.08)

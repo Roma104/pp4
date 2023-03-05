@@ -4,7 +4,7 @@ def dopisz(plik):
 
     x = open(plik,"a")
     x.readline
-    x.write("\n" + text)
+    x.write(text + "\n")
     x.close
 
-dopisz("test3.txt")
+dopisz("test5.txt")

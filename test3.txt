@@ -1,2 +1,4 @@
 
 chyba œmiga
+& C:/Users/zulci/AppData/Local/Microsoft/WindowsApps/python3.9.exe c:/Users/zulci/Desktop/pp4/nowaLinijka.pyaaa
+bbb

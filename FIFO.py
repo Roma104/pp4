@@ -6,8 +6,8 @@ class FIFO:
     def __init__(self):
         self.fifo = []
 
-    def add(self,a):
-        self.fifo.append(a)
+    def add(self,x):
+        self.fifo.append(x)
 
     def pop(self):
         return self.fifo.pop(0)
@@ -22,4 +22,7 @@ f.add(9)
 f.add(4)
 
 print(f.pop())
-
+# ^ ten jest 1 w kolejce, a potem lecą po kolei tam niżej v
+print(f.pop())
+print(f.pop())
+print(f.pop())

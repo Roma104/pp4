@@ -8,7 +8,7 @@ def cena_netto(cena_brutto,podatek):
     if podatek >=0 and cena_brutto >=0:
         return print(round(cena_brutto/(podatek),2))
     else:
-        return print("Podatek i cena brutto nie mogą być ujemne!")
+        return print("Podane wartości muszą być dodatnie!")
 
 #testy =D
 cena_netto(100,1.08)
